@@ -1,4 +1,4 @@
-# DSCN_Plugin
+# DSCN Plugin
 
 This is a plugin I made to allow for importing/exporting DSCN files in Godot.
 
