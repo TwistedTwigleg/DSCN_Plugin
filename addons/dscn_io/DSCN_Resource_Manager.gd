@@ -101,7 +101,7 @@ func add_node_resources_to_list_and_dict(node, dep_dict, resources_list, resourc
 		elif (node is Path):
 			_add_resources_path(node, dep_dict, resources_list, resource_check_dict);
 		elif (node is BakedLightmap):
-			_add_resources_baked_light_map(node, dep_dict, resources_list, resource_check_dict);
+			_add_resources_baked_lightmap(node, dep_dict, resources_list, resource_check_dict);
 		elif (node is GIProbe):
 			_add_resources_gi_probe(node, dep_dict, resources_list, resource_check_dict);
 		
@@ -216,7 +216,7 @@ func load_node_resources_from_list(node, dep_dict, resources_list):
 		elif (node is Path):
 			_load_resources_path(node, dep_dict_resources, resources_list);
 		elif (node is BakedLightmap):
-			_load_resources_baked_light_map(node, dep_dict_resources, resources_list);
+			_load_resources_baked_lightmap(node, dep_dict_resources, resources_list);
 		elif (node is GIProbe):
 			_load_resources_gi_probe(node, dep_dict_resources, resources_list);
 		elif (node is GeometryInstance):
