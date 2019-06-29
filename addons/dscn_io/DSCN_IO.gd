@@ -146,11 +146,11 @@ func _save_dscn(node, file):
 	
 	# Store nodes
 	for node_to_store in node_list:
-		file.store_var(node_to_store);
+		file.store_var(node_to_store, true);
 	
 	# Store resources
 	for resource_to_store in resource_list:
-		file.store_var(resource_to_store);
+		file.store_var(resource_to_store, true);
 	
 	# Print success!
 	print ("**** DSCN_IO ****");
@@ -351,13 +351,13 @@ func _load_dscn(file):
 	# Get all of the nodes in the saved DSCN file (using nodes_in_list)
 	# and place those nodes in node_list.
 	for i in range(0, nodes_in_list):
-		var stored_node = file.get_var();
+		var stored_node = file.get_var(true);
 		node_list.append(stored_node);
 	
 	# Get all of the resources in the saved DSCN file (using resources_in_list)
 	# and place those resources in resource_list.
 	for i in range(0, resources_in_list):
-		var stored_resource = file.get_var();
+		var stored_resource = file.get_var(true);
 		resource_list.append(stored_resource);
 	
 	# Add resources to all of the nodes in node_list
