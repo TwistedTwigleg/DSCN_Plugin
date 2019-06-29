@@ -3,19 +3,15 @@
 [ext_resource path="res://addons/dscn_io/DSCN_Runtime_Node.gd" type="Script" id=1]
 [ext_resource path="res://addons/dscn_io/DSCN_Node_Icon.png" type="Texture" id=2]
 
-[node name="Node2D" type="Node2D" index="0"]
+[node name="Node2D" type="Node2D"]
 
-[node name="TEST" type="Node2D" parent="." index="0"]
+[node name="TEST" type="Node2D" parent="."]
 
-[node name="DSCN_Runtime_Node" type="Node" parent="." index="1"]
-
+[node name="DSCN_Runtime_Node" type="Node" parent="."]
 script = ExtResource( 1 )
 __meta__ = {
 "_editor_icon": ExtResource( 2 )
 }
 path_to_node = NodePath("../TEST")
-mode = 0
 filepath = "res://Runtime_Scene.DSCN"
 execute_in_ready = true
-
-
