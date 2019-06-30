@@ -3,10 +3,7 @@
 [ext_resource path="res://addons/dscn_io/DSCN_IO.gd" type="Script" id=1]
 [ext_resource path="res://addons/dscn_io/DSCN_Resource_Manager.tscn" type="PackedScene" id=2]
 
-[node name="DSCN_IO" type="Node" index="0"]
-
+[node name="DSCN_IO" type="Node"]
 script = ExtResource( 1 )
 
-[node name="DSCN_Resource_Manager" parent="." index="0" instance=ExtResource( 2 )]
-
-
+[node name="DSCN_Resource_Manager" parent="." instance=ExtResource( 2 )]
