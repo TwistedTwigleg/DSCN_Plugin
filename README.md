@@ -2,8 +2,7 @@
 
 This is a plugin I made to allow for importing/exporting DSCN files in Godot.
 
-As of when this was written, the **plugin supports Godot 3.0.6**.
-(It should work with Godot 3.1 as well)
+As of when this was written, the **plugin supports Godot 3.1.1**.
 
 This plugin is released under the `MIT` license.
 (Credits to [Godot Engine](https://godotengine.org/) for the Godot logo).
@@ -45,6 +44,10 @@ While it can be used in production, right now some essential functionality is mi
 
 Please report any issues, suggestions, and/or bugs to the issue tracker! Feel free to clone and make changes if you want. Hopefully the code is fairly straight forward, though do not hesitate to contact me if you have any questions. You can reach my through my [Twitter](https://twitter.com/TwistedTwigleg), [Facebook](https://www.facebook.com/noah.beard.5680), and email.
 
-**If you want to help support my ability to work on this plugin**, and as a bonus gain access to tutorials I write on [RandomMomentania](https://randommomentania.com/), please support me on [Patreon](https://www.patreon.com/RandomMomentania).
+If you want to see more things I've done, take a look at[RandomMomentania](https://randommomentania.com/), where I post game development tutorials and links to games I've created!
+
+### Thanks
+
+Thanks to kb173 for updating the project to work with Godot 3.1.1
 
 
